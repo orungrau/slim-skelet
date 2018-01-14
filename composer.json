@@ -1,0 +1,20 @@
+{
+    "name": "orungrau/slim-skelet",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Anatoly Myaskov",
+            "email": "myaskov@me.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^3.0",
+        "illuminate/database": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
